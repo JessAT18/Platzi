@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Practica con la etiqueta input">
+    <meta name="robots" content="index,follow">
+    <title>Etiqueta input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Viva Santa Cruz!</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombres">    
+                <span>Nombre: </span>
+                <input type="text" id="nombres" name="nombres" placeholder="Nombre">
+            </label>
+            <label for="apellidos">
+                <span>Apellido: </span>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            </label>
+            <label for="fecha_nacimiento">
+                <span>Fecha de nacimiento: </span>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            </label>
+            <label for="color_favorito">
+                <span>Color favorito: </span>
+                <input type="color" id="color_favorito" name="color_favorito">
+            </label>
+            <label for="telefono">
+                <span>Telefono: </span>
+                <input type="tel" id="telefono" name="telefono" pattern="+[0-9]{3} [0-9]{8}" placeholder="+591 XXXXXXXX">
+            </label>
+            <label for="email_principal">
+                <span>Email: </span>
+                <input type="email" id="email_principal" name="email_principal" placeholder="Tu Email">
+            </label>
+            <label for="fecha_registro">
+                <span>Fecha de registro: </span>
+                <input type="datetime-local" id="fecha_registro" name="fecha_registro" >
+            </label>
+            <label for="foto">
+                <span>Tu foto: </span>
+                <input type="file" id="foto" name="foto">
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <p>Practica hecha el 24-09-2020 por Jessica Aquino</p>
+    </footer>
+</body>
+</html>
