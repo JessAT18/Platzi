@@ -16,31 +16,31 @@
         <form action="">
             <label for="nombres">    
                 <span>Nombre: </span>
-                <input type="text" id="nombres" name="nombres" placeholder="Nombre">
+                <input type="text" id="nombres" name="nombres" placeholder="Nombre" autocomplete="given-name" required>
             </label>
             <label for="apellidos">
                 <span>Apellido: </span>
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" autocomplete="family-name" required>
             </label>
             <label for="fecha_nacimiento">
                 <span>Fecha de nacimiento: </span>
-                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" autocomplete="bday" required>
             </label>
             <label for="color_favorito">
                 <span>Color favorito: </span>
-                <input type="color" id="color_favorito" name="color_favorito">
+                <input type="color" id="color_favorito" name="color_favorito" required>
             </label>
             <label for="telefono">
                 <span>Telefono: </span>
-                <input type="tel" id="telefono" name="telefono" pattern="+[0-9]{3} [0-9]{8}" placeholder="+591 XXXXXXXX">
+                <input type="tel" id="telefono" name="telefono" pattern="+[0-9]{3} [0-9]{8}" placeholder="+591 XXXXXXXX" required>
             </label>
             <label for="email_principal">
                 <span>Email: </span>
-                <input type="email" id="email_principal" name="email_principal" placeholder="Tu Email">
+                <input type="email" id="email_principal" name="email_principal" placeholder="Tu Email" autocomplete="email" required>
             </label>
             <label for="fecha_registro">
                 <span>Fecha de registro: </span>
-                <input type="datetime-local" id="fecha_registro" name="fecha_registro" >
+                <input type="datetime-local" id="fecha_registro" name="fecha_registro" required>
             </label>
             <label for="foto">
                 <span>Tu foto: </span>
