@@ -11,3 +11,7 @@ p {
 
 /* ID */
 
+#texto {
+    color: yellow;
+    font-size: 24px;
+}
