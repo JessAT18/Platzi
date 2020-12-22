@@ -1,7 +1,7 @@
 .main-nav {
-    margin-top: 10px;
-    list-style: none;
-    padding-left: 0px;
+    margin-top: 10px; /*Espacio externo a un contenedor.*/
+    list-style: none; /*Quitar los puntos de nuestra lista*/
+    padding-left: 0px; /*Espacio interno en un contenedor.*/
     background-color: #13a4a4;
 }
 
