@@ -1,0 +1,19 @@
+/* Adjacent Sibling: A la etiqueta p que tenga antes una etiqueta h2, agregar los estilos.
+h2 + p {
+    color: red;
+} */
+
+/*General Sibling: A la etiqueta p que tenga al mismo nivel una etiqueta h2, agregar los estilos.
+h2 ~ p {
+    color: red;
+ } */
+
+/*Child: A la etiqueta div que tenga como hijo directamente una etiqueta p, agregar los estilos.
+div > p {
+    color: red;
+} */
+
+/* Descendant: Todas las etiquetas p que esten dentro de una etiqueta div, agregar los estilos. */
+div p {
+    color: red;
+}
