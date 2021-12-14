@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Sofia", sans-serif;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    width: 40vw;
+    height: 80vh;
+    border: 2px black solid;
+    border-radius: 1rem;
+    background-color: #9560bd;
+    margin: 5% auto;
+}
+
+.resize {
+    /* width: 17.2rem;
+    height: 20.8rem; */
+    width: 25.8rem;
+    height: 31.2rem;
+    border-radius: 1rem;
+
+    display: block;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-title {
+    border: 2px black solid;
+    font-size: 3.2rem;
+    text-align: center;
+    background-color: #581e85;
+    position: absolute;
+    left: 45%;
+    top: 7.5%;
+}
+
+.box-text{
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding: 4%;
+}
